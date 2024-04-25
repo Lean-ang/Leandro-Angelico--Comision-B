@@ -1,1 +1,5 @@
 -Se Linkeo CSS
+-Implementacion de nueva pagina (Box)
+-Implementacion de FlexBox
+-Mejora en la NavBar
+-Cambio de colores en la Tabla

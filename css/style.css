@@ -4,7 +4,55 @@
     padding: 0;
     text-decoration: none;
   }
-
+/******************MAINS***********************/
+.main-index{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-table{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.main-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/******************NAVBAR**************************/
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-li{
+    margin: 5px;
+    padding: 5px;
+    font-family:Verdana;
+    background-color: rgba(0, 0, 255, 0.39);
+    border-radius: 20px;
+}
+   
+    
+/******************INDEX***************************/
+.title-index{
+    display: flex;
+    justify-content: center;
+}
+.img-index{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.nav-p{
+    font-weight: 600;
+    color: white;
+}
+/******************TABLA**********************/
 
 .all-name{
     font-size: 20px;
@@ -22,14 +70,91 @@
 .name-bands{
     font-size: 17px;
     font-family: Verdana, Tahoma, sans-serif;
+    
 }
 .title-gen{
     font-size: 20px;
+    background-color: rgb(66, 85, 49);
 }
 .title-music{
     font-size: 40px;
     font-family: Verdana, Tahoma, sans-serif;
+  
 }
 .table{
     background-color: rgb(184, 218, 181);
+    border-radius: 5px;
+}
+
+.name1{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.name2{
+    border-radius: 5px;
+}
+.name3{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+
+/****************BOX*********************/
+.div-box{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 4px dotted;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 50px;
+    
+}
+.text-box{
+    display: flex;
+    margin: auto;
+    font-family: impact;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+}
+ 
+ .rojo .verde .azul{
+    position: absolute;
+ }  
+
+.rojo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+
+} 
+.verde{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.azul{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.gris{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
