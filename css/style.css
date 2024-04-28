@@ -21,22 +21,34 @@
     align-items: center;
     flex-direction: column;
 }
+.main-horarios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 /******************NAVBAR**************************/
-.nav-ul{
+nav ul{
     display: flex;
     justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
+
 }
-.nav-li{
+nav li{
     margin: 5px;
     padding: 5px;
     font-family:Verdana;
     background-color: rgba(0, 0, 255, 0.39);
     border-radius: 20px;
 }
-   
+
+nav p{
+    font-weight: 600;
+    color: white;
+
+}
     
 /******************INDEX***************************/
 .title-index{
@@ -47,10 +59,6 @@
     display: flex;
     margin-top: 20px;
     border-radius: 20px;
-}
-.nav-p{
-    font-weight: 600;
-    color: white;
 }
 /******************TABLA**********************/
 
@@ -158,3 +166,44 @@
     border-radius: 20px;
     margin-top: 20px;
 }
+/*******************************HORARIOS*************************************/
+.table-horarios{
+    border: black 2px solid;
+}
+.table-horarios tr{
+    border: black 2px solid;
+    font-weight: bold;
+}
+
+
+.content-table{ 
+    border-collapse: collapse; 
+    margin: 10px; 
+    font-size: 16px; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+     
+}
+
+.content-table  thead tr { background-color: #007598; 
+    color: #ffffff; 
+}
+
+.content-table th, .content-table td { 
+    padding: 12px 15px; 
+}
+
+.content-table tr {
+     border-bottom: 1px solid #dddddd;    
+     }
+
+.content-table tbody tr:nth-of-type(even) {
+     background-color: #f3f3f3; 
+    }
+
+.content-table tbody tr:last-of-type {
+     border-bottom: 2px solid #007598; 
+    }
+.closed{   
+    font-weight:bold ;
+}    
