@@ -47,8 +47,8 @@ nav li{
 nav p{
     font-weight: 600;
     color: white;
-
 }
+
     
 /******************INDEX***************************/
 .title-index{
@@ -119,7 +119,7 @@ nav p{
     margin: 50px;
     
 }
-.text-box{
+.div-box h1{
     display: flex;
     margin: auto;
     font-family: impact;
