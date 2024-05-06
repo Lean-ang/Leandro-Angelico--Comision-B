@@ -4,6 +4,13 @@
     padding: 0;
     text-decoration: none;
   }
+  
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    flex-wrap: wrap;min-height: 100vh;
+}
 /******************MAINS***********************/
 .main-index{
     display: flex;
@@ -49,6 +56,30 @@ nav p{
     color: white;
 }
 
+/*****************FOOTER*****************************/
+footer{
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1965161064) 27%, rgba(0, 0, 0, 0.4009978992) 57%, rgba(0, 0, 0, 0.4009978992) 100%, rgba(0, 0, 0, 0.4037990196) 100%);
+    position: relative;
+}
+
+footer ul {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+footer ul li {
+    padding-left: 20px;
+    position: relative;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    color: rgb(0, 61, 255);
+}
     
 /******************INDEX***************************/
 .title-index{
