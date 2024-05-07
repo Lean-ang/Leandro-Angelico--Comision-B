@@ -238,3 +238,24 @@ footer ul li:hover {
 .closed{   
     font-weight:bold ;
 }    
+/********Media Querys************/
+.ejemplo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: aqua;
+}
+@media only screen and (min-width:320px) and (max-width:576px) {
+    .ejemplo{
+        width: 100%;
+        padding-left: 23px;
+        flex-direction: column-reverse;
+        background-color: coral;
+        
+    }
+    .cajas{
+        width: 100%;
+    }
+}
